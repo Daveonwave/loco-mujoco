@@ -1,4 +1,0 @@
-loco_mujoco
-wget
-m2r2
-sphinx_rtd_theme
