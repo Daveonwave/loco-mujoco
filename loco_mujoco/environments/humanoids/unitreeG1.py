@@ -287,18 +287,22 @@ class UnitreeG1(BaseRobotHumanoid):
                             ObservationType.JointPos("q_left_knee_joint", xml_name="left_knee_joint"),
                             ObservationType.JointPos("q_left_ankle_pitch_joint", xml_name="left_ankle_pitch_joint"),
                             ObservationType.JointPos("q_left_ankle_roll_joint", xml_name="left_ankle_roll_joint"),
+                            
                             ObservationType.JointPos("q_right_hip_pitch_joint", xml_name="right_hip_pitch_joint"),
                             ObservationType.JointPos("q_right_hip_roll_joint", xml_name="right_hip_roll_joint"),
                             ObservationType.JointPos("q_right_hip_yaw_joint", xml_name="right_hip_yaw_joint"),
                             ObservationType.JointPos("q_right_knee_joint", xml_name="right_knee_joint"),
                             ObservationType.JointPos("q_right_ankle_pitch_joint", xml_name="right_ankle_pitch_joint"),
                             ObservationType.JointPos("q_right_ankle_roll_joint", xml_name="right_ankle_roll_joint"),
+                            
                             ObservationType.JointPos("q_waist_yaw_joint", xml_name="waist_yaw_joint"),
+                            
                             ObservationType.JointPos("q_left_shoulder_pitch_joint", xml_name="left_shoulder_pitch_joint"),
                             ObservationType.JointPos("q_left_shoulder_roll_joint", xml_name="left_shoulder_roll_joint"),
                             ObservationType.JointPos("q_left_shoulder_yaw_joint", xml_name="left_shoulder_yaw_joint"),
                             ObservationType.JointPos("q_left_elbow_joint", xml_name="left_elbow_joint"),
                             ObservationType.JointPos("q_left_wrist_roll_joint", xml_name="left_wrist_roll_joint"),
+                            
                             ObservationType.JointPos("q_right_shoulder_pitch_joint", xml_name="right_shoulder_pitch_joint"),
                             ObservationType.JointPos("q_right_shoulder_roll_joint", xml_name="right_shoulder_roll_joint"),
                             ObservationType.JointPos("q_right_shoulder_yaw_joint", xml_name="right_shoulder_yaw_joint"),

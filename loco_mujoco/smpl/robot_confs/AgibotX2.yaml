@@ -1,0 +1,14 @@
+robot_pose_modifier:
+  # - left_shoulder_roll_joint: "np.pi/2"
+  # - left_elbow_joint: "np.pi/2"
+  # - right_shoulder_roll_joint: "-np.pi/2"
+  # - right_elbow_joint: "np.pi/2"
+  - waist_roll_joint: "0.0"
+  - waist_pitch_joint: "0.0"
+  - left_wrist_yaw_joint: "0.0"
+  - left_wrist_pitch_joint: "0.0"
+  - right_wrist_yaw_joint: "0.0"
+  - right_wrist_pitch_joint: "0.0"
+
+env_params:
+  disable_arms: false

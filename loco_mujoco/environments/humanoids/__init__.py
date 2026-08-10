@@ -1,5 +1,6 @@
 from .atlas import Atlas
 from .atlas_mjx import MjxAtlas
+from .agibotx2 import AgibotX2
 from .talos import Talos
 from .talos_mjx import MjxTalos
 from .unitreeH1 import UnitreeH1

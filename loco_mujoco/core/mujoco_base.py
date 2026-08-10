@@ -83,6 +83,7 @@ class Mujoco:
         """
         Return absolute path to a model file inside loco-mujoco-models.
         """
+        print(str(files("loco_mujoco_models").joinpath(*relative_parts)))
         return str(files("loco_mujoco_models").joinpath(*relative_parts))
 
     def __init__(self,
